@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tasty Bite Restaurant - fresh food, friendly service.">
+  <title> Tasty Bite Restaurant </title>
+  <!--Fontawesome link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- css file link-->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navigation code start-->
+  <nav>
+    <div class="logo"> Tasty<span>Bite</span> </div>
+
+    <input type="checkbox" id="click">
+    <label for="click" class="menu-btn"> <i class="fas fa-bars"></i> </label>
+
+    <ul>
+      <li> <a class="active" href="#home"> Home </a> </li>
+      <li> <a href="#about"> About </a> </li>
+      <li> <a href="#menu"> Menu </a> </li>
+      <li> <a href="#review"> Reviews </a> </li>
+      <li> <a href="#contact"> Contact </a> </li>
+    </ul>
+  </nav>
+
+
+  <!-- hero area code start -->
+  <header id="home" class="hero-area-section">
+    <div class="hero-parent">
+      <h4> WELCOME TO </h4>
+      <h1> Tasty Bite Restaurant </h1>
+      <p>
+        Fresh ingredients, delicious recipes and a warm place to enjoy every meal with your family and friends.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="hero-btn" href="#menu"> View Menu </a>
+        <!-- নিচের নম্বরে দেশের কোডসহ আপনার নম্বর দিন, + বা 0 ছাড়া -->
+        <a class="hero-btn hero-btn-outline" href="https://wa.me/966XXXXXXXXX" target="_blank"> Order on WhatsApp </a>
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- about section code start -->
+    <section id="about" class="about-section">
+      <div class="about-parent">
+
+        <div class="about-img-box">
+          <!-- নিজের ছবি দিতে চাইলে এই div-এর ভেতরে লিখুন: <img src="about.jpg" alt="Our restaurant"> -->
+          <i class="fas fa-utensils"></i>
+        </div>
+
+        <div class="about-text">
+          <h4> ABOUT US </h4>
+          <h2> We Cook With Love </h2>
+          <p>
+            Since we opened our doors, our goal has been simple: serve tasty food made from fresh ingredients at a fair price. Our chefs prepare every dish with care, so you can enjoy the best flavour in every bite.
+          </p>
+          <ul>
+            <li> <i class="fas fa-check"></i> Fresh and quality ingredients </li>
+            <li> <i class="fas fa-check"></i> Clean and cosy place </li>
+            <li> <i class="fas fa-check"></i> Friendly and fast service </li>
+          </ul>
+          <a href="#contact"> Book a Table </a>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- menu section code start -->
+    <section id="menu" class="menu-section">
+      <h2 class="section-title"> Our Menu </h2>
+      <p class="section-sub"> Choose your favourite dish </p>
+
+      <div class="menu-parent">
+
+        <div class="single-menu">
+          <!-- ছবি দিতে চাইলে নিচের <i> মুছে লিখুন: <img src="burger.jpg" alt="Beef Burger"> -->
+          <div class="menu-img"> <i class="fas fa-burger"></i> </div>
+          <div class="menu-text">
+            <h3> Beef Burger </h3>
+            <p> Juicy beef, fresh lettuce, cheese and our special sauce. </p>
+            <span class="price"> $8 </span>
+          </div>
+        </div>
+
+        <div class="single-menu">
+          <div class="menu-img"> <i class="fas fa-pizza-slice"></i> </div>
+          <div class="menu-text">
+            <h3> Chicken Pizza </h3>
+            <p> Hand-made dough with chicken, cheese and fresh vegetables. </p>
+            <span class="price"> $12 </span>
+          </div>
+        </div>
+
+        <div class="single-menu">
+          <div class="menu-img"> <i class="fas fa-drumstick-bite"></i> </div>
+          <div class="menu-text">
+            <h3> Grilled Chicken </h3>
+            <p> Tender chicken grilled with herbs and served with rice. </p>
+            <span class="price"> $14 </span>
+          </div>
+        </div>
+
+        <div class="single-menu">
+          <div class="menu-img"> <i class="fas fa-bowl-food"></i> </div>
+          <div class="menu-text">
+            <h3> Creamy Pasta </h3>
+            <p> Soft pasta in a rich creamy sauce with mushrooms. </p>
+            <span class="price"> $10 </span>
+          </div>
+        </div>
+
+        <div class="single-menu">
+          <div class="menu-img"> <i class="fas fa-leaf"></i> </div>
+          <div class="menu-text">
+            <h3> Fresh Salad </h3>
+            <p> Crunchy seasonal vegetables with a light lemon dressing. </p>
+            <span class="price"> $6 </span>
+          </div>
+        </div>
+
+        <div class="single-menu">
+          <div class="menu-img"> <i class="fas fa-cake-candles"></i> </div>
+          <div class="menu-text">
+            <h3> Chocolate Cake </h3>
+            <p> Soft chocolate cake with melted chocolate on top. </p>
+            <span class="price"> $5 </span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- why choose us section code start -->
+    <section class="why-section">
+      <h2 class="section-title white-text"> Why Choose Us </h2>
+      <p class="section-sub light-text"> What makes us special </p>
+
+      <div class="why-parent">
+
+        <div class="single-why">
+          <i class="fas fa-leaf"></i>
+          <h3> Fresh Food </h3>
+          <p> We use fresh ingredients every single day. </p>
+        </div>
+
+        <div class="single-why">
+          <i class="fas fa-kitchen-set"></i>
+          <h3> Expert Chefs </h3>
+          <p> Our chefs have years of experience. </p>
+        </div>
+
+        <div class="single-why">
+          <i class="fas fa-truck-fast"></i>
+          <h3> Fast Delivery </h3>
+          <p> Hot food delivered quickly to your door. </p>
+        </div>
+
+        <div class="single-why">
+          <i class="fas fa-award"></i>
+          <h3> Best Quality </h3>
+          <p> Top quality in every plate we serve. </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- review section code start -->
+    <section id="review" class="review-section">
+      <h2 class="section-title"> Happy Customers </h2>
+      <p class="section-sub"> What people say about us </p>
+
+      <div class="review-parent">
+
+        <div class="single-review">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p> "The burger was amazing and the service was very fast. I will come again!" </p>
+          <h4> - Customer Name </h4>
+        </div>
+
+        <div class="single-review">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p> "A very clean place with tasty food. My family loved the pizza." </p>
+          <h4> - Customer Name </h4>
+        </div>
+
+        <div class="single-review">
+          <div class="stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p> "Great prices and friendly staff. The chocolate cake is the best." </p>
+          <h4> - Customer Name </h4>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- contact section code start -->
+    <section id="contact" class="contact-section">
+      <h2 class="section-title"> Find Us </h2>
+      <p class="section-sub"> Visit us or call to book a table </p>
+
+      <div class="contact-parent">
+
+        <div class="contact-info">
+          <div class="single-info">
+            <i class="fas fa-location-dot"></i>
+            <div>
+              <h4> Address </h4>
+              <p> Your Street, Your City </p>
+            </div>
+          </div>
+
+          <div class="single-info">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4> Phone </h4>
+              <p> +000 000 000 000 </p>
+            </div>
+          </div>
+
+          <div class="single-info">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4> Email </h4>
+              <p> info@tastybite.com </p>
+            </div>
+          </div>
+
+          <div class="single-info">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4> Opening Hours </h4>
+              <p> Sat - Thu : 10:00 AM - 11:00 PM </p>
+              <p> Friday : 2:00 PM - 11:00 PM </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-box">
+          <!-- ম্যাপে নিজের এলাকার নাম দিতে q= এর পরের নাম বদলান -->
+          <iframe
+            src="https://maps.google.com/maps?q=Sylhet%20Bangladesh&z=12&output=embed"
+            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" title="Restaurant location">
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- footer code start -->
+  <footer class="main-footer">
+    <div class="logo"> Tasty<span>Bite</span> </div>
+    <div class="footer-icons">
+      <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+      <a href="#"> <i class="fab fa-instagram"></i> </a>
+      <a href="#"> <i class="fab fa-whatsapp"></i> </a>
+    </div>
+    <p> &copy; 2026 Tasty Bite Restaurant. All rights reserved. </p>
+  </footer>
+
+</body>
+
+</html>
